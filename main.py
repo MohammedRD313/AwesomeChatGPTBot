@@ -147,14 +147,14 @@ def ping_command_handler(message: typing.ClassVar[typing.Any]) -> typing.NoRetur
 
     # Make status mapping for providers
     status_mapping: typing.Dict[str, str] = {
-        "deep_infra_chat": "Offline",
-        "fstha_chat_gpt": "Offline",
-        "online_gpt_chat": "Offline",
-        "fakeopen_chat": "Offline",
-        "free_gpt_4": "Offline",
+        "deep_infra_chat": "Online",
+        "fstha_chat_gpt": "Online",
+        "online_gpt_chat": "Online",
+        "fakeopen_chat": "Online",
+        "free_gpt_4": "Online",
         # "gpt_4_free_client": "Offline",
-        "uncensored_ai": "Offline",
-        "remix_ai": "Offline"
+        "uncensored_ai": "Online",
+        "remix_ai": "Online"
     }
     # Check providers availability
     for provider in [deep_infra_chat, 

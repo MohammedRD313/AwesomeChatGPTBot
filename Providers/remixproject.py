@@ -29,7 +29,7 @@ def remix_ai(messages: List[Dict[str, str]]) -> Union[str, NoReturn]:
     headers: Dict[str, str] = {
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "Accept-Language": "en",
+        "Accept-Language": "ar",
         "Connection": "keep-alive",
         "Origin": "https://remix.ethereum.org",
         "Referer": "https://remix.ethereum.org/",

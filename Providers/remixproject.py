@@ -23,13 +23,13 @@ def remix_ai(messages: List[Dict[str, str]]) -> Union[str, NoReturn]:
         result (Union[str, None]): result or None in failure
     """
     # Base URL for provider API
-    url: str = "https://api.freegpt4.tech/v1/chat/completions"
+       url: str = "https://openai-gpt.remixproject.org/"
     
     # Request headers
     headers: Dict[str, str] = {
-        "Accept": "text/event-stream",
-        "Content-Type": "text/event-stream",
-        "Accept-Language": "en",
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Accept-Language": "ar",
         "Connection": "keep-alive",
         "Origin": "https://remix.ethereum.org",
         "Referer": "https://remix.ethereum.org/",

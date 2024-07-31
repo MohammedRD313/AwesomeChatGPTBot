@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 # Standard Library Modules
@@ -23,13 +23,13 @@ def remix_ai(messages: List[Dict[str, str]]) -> Union[str, NoReturn]:
         result (Union[str, None]): result or None in failure
     """
     # Base URL for provider API
-       url: str = "https://openai-gpt.remixproject.org/"
+    url: str = "https://openai-gpt.remixproject.org/"
     
     # Request headers
     headers: Dict[str, str] = {
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "Accept-Language": "ar",
+        "Accept-Language": "en",
         "Connection": "keep-alive",
         "Origin": "https://remix.ethereum.org",
         "Referer": "https://remix.ethereum.org/",

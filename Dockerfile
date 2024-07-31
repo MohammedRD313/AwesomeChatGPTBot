@@ -6,6 +6,6 @@ RUN pip3 install -U pip
 
 COPY . /app/
 WORKDIR /app/
-RUN pip3 install -U -r requirements.txt
-
+RUN pip install pyTelegamBotAPI Requests
+RUN pip install -r requirements.txt
 CMD bash start
